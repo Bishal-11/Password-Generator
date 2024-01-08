@@ -59,8 +59,7 @@ W# e have done this because we want a password which must contain an uppercase, 
 Button(root, text = "GENERATE PASSWORD" , command = Generator ).pack(pady= 5)
 Entry(root , textvariable = pass_str).pack()
 
-# Button() widget used to display button on our window
-# command is called when the button is click
+# Button() widget used to display button on our window command is called when the button is click.
 # Entry() widget used to create an input text field
 # textvariable used to retrieve the current text to the entry widget
 
